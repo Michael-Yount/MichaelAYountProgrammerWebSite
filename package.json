@@ -1,0 +1,22 @@
+{
+  "name": "michaelayountprogrammerwebsite",
+  "version": "1.0.0",
+  "description": "This is my professional website.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node:sass sass/main.scss css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Yount/MichaelAYountProgrammerWebSite.git"
+  },
+  "author": "Michael A. Yount",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-Yount/MichaelAYountProgrammerWebSite/issues"
+  },
+  "homepage": "https://github.com/Michael-Yount/MichaelAYountProgrammerWebSite#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
