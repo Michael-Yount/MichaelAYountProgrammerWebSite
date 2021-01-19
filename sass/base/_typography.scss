@@ -1,15 +1,38 @@
 body {
-  background: $color-white;
-  margin: 0;
-  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-size: $default-font-size;
+  background: $color-background-main;
+  color: $color-background-ltGray;
+  padding: 1rem;
 }
 
-.myName {
-  width: 100%;
-  margin: 0 auto;
-  font-family: "Sansita Swashed", cursive;
-  font-size: 7em;
-  color: rgb(115, 225, 255);
-  filter: drop-shadow(10px 10px 10px black);
-  z-index: 5;
+.header-primary {
+  // My Name label
+  color: $color-background-ltGray;
+  text-transform: uppercase;
+  text-shadow: $text-shadow-dark;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 2rem;
+    text-align: left;
+    // padding: 2rem;
+
+    animation-name: dropDown;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.78, 0.29, 0.57, 1.31);
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 1.1rem;
+    text-align: left;
+  }
 }

@@ -1,0 +1,16 @@
+@keyframes dropDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-200rem);
+    }
+
+    90% {
+        // font-size: larger;
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(1rem);
+
+    }
+}

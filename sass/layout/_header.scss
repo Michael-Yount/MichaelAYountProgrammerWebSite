@@ -1,0 +1,47 @@
+.header {
+  height: 75vh;
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-ltBlue,
+    $color-primary-dkBlue
+  ), url(/reference/img/codeScreenShot.png);
+
+  clip-path: polygon(0 0, 100% 0, 60% 95vh, 0 100%  );
+  border-radius: 1rem;
+
+  &__head--shot {
+      display:block ;
+    position: relative;
+    padding: 5rem;
+    border-radius: 3rem;
+  }
+
+  &__headShot {
+      height: 40rem;
+      border-radius: 15rem;
+      position: absolute;
+    //   padding: 2rem;
+      box-shadow: $box-shadow-dark;
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 6rem;
+    left: 6rem;
+  }
+
+  &__logo {
+    height: 8rem;
+  }
+
+  &__text--box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+}
