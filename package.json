@@ -4,7 +4,7 @@
   "description": "This is my professional website.",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node:sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Michael-Yount/MichaelAYountProgrammerWebSite#readme",
   "devDependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.4"
   }
 }
