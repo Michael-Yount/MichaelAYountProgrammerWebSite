@@ -87,7 +87,7 @@ body {
     position: absolute;
     box-shadow: 1rem 1rem 3rem #0a0a0a; }
   .header__logo-box {
-    position: relative;
+    position: absolute;
     top: 6rem;
     left: 6rem; }
   .header__logo {
@@ -127,3 +127,8 @@ body {
 .header-links__list--link:hover, .header-links__list--link:active {
   color: #23ff91;
   transform: translateY(-0.5rem); }
+
+.section-projects {
+  padding: 20rem;
+  margin-top: -5rem;
+  border-radius: 2rem; }
