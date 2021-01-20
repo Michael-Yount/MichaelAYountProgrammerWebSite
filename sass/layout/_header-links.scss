@@ -1,0 +1,45 @@
+.header-links {
+    
+  // nothing here ?
+  &__nav {
+      top: 2rem;
+      text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+  }
+
+  &__list {      
+    list-style: none;
+    width: 100%;
+  }
+
+  &__list--item {
+      display: inline-block;
+      padding: 2rem;
+      
+
+  }
+
+  &__list--link {
+    &:link,
+    &:visited {
+        
+      text-shadow: $text-shadow-dark;
+      display: inline-block;
+      font-weight: 500;
+      font-size: 2.5rem;
+      padding: 1rem;
+      color: $color-background-ltGray;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    &:hover,
+    &:active {
+        color: $text-color-hover;
+        transform: translateY(-.5rem);
+    }
+  }
+}

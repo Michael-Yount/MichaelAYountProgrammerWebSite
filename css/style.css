@@ -2,7 +2,7 @@ body {
   font-family: "Source Code Pro", monospace;
   font-weight: 400;
   font-size: 1.6rem;
-  background: #fff1f8;
+  background: #bdaecf;
   color: #ececec;
   padding: 1rem; }
 
@@ -80,3 +80,32 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+
+.header-links__nav {
+  top: 2rem;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000; }
+
+.header-links__list {
+  list-style: none;
+  width: 100%; }
+
+.header-links__list--item {
+  display: inline-block;
+  padding: 2rem; }
+
+.header-links__list--link:link, .header-links__list--link:visited {
+  text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: #ececec;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.header-links__list--link:hover, .header-links__list--link:active {
+  color: #23ffed;
+  transform: translateY(-0.5rem); }
