@@ -9,7 +9,7 @@ body {
 .header-primary {
   color: #ececec;
   text-transform: uppercase;
-  text-shadow: 1rem 1rem 0.75rem #0a0a0a;
+  text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
   .header-primary--main {
@@ -51,11 +51,11 @@ body {
     transform: translateY(1rem); } }
 
 .header {
-  height: 75vh;
+  height: 65vh;
   position: relative;
   background-size: cover;
   background-position: top;
-  background-image: linear-gradient(to right bottom, rgba(109, 209, 248, 0.897), #1f3e5f), url(/reference/img/codeScreenShot.png);
+  background-image: linear-gradient(to right bottom, rgba(109, 209, 248, 0.87), #1f3e5f), url(/reference/img/codeScreenShot.png);
   clip-path: polygon(0 0, 100% 0, 60% 95vh, 0 100%);
   border-radius: 1rem; }
   .header__head--shot {
@@ -64,12 +64,12 @@ body {
     padding: 5rem;
     border-radius: 3rem; }
   .header__headShot {
-    height: 40rem;
-    border-radius: 15rem;
+    height: 35rem;
+    border-radius: 10rem;
     position: absolute;
-    box-shadow: 1rem 1rem 2.5rem #0a0a0a; }
+    box-shadow: 1rem 1rem 3rem #0a0a0a; }
   .header__logo-box {
-    position: absolute;
+    position: relative;
     top: 6rem;
     left: 6rem; }
   .header__logo {
