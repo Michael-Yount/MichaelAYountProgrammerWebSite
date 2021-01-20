@@ -11,7 +11,7 @@ body {
   text-transform: uppercase;
   text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
   backface-visibility: hidden;
-  margin-bottom: 6rem; }
+  margin-bottom: 2rem; }
   .header-primary--main {
     display: block;
     font-size: 6rem;
@@ -49,6 +49,24 @@ body {
   100% {
     opacity: 100%;
     transform: translateY(1rem); } }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-mid {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
 
 .header {
   height: 65vh;
@@ -107,5 +125,5 @@ body {
   text-transform: uppercase; }
 
 .header-links__list--link:hover, .header-links__list--link:active {
-  color: #23ffed;
+  color: #23ff91;
   transform: translateY(-0.5rem); }
