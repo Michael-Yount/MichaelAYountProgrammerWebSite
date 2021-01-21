@@ -1,4 +1,4 @@
-$color-white: rgb(233, 246, 248);
+$color-white: rgb(153, 172, 175);
 $color-black: rgb(7, 6, 6);
 
 $color-primary-ltBlue: rgba(109, 209, 248, 0.87);
@@ -7,7 +7,7 @@ $color-secondary-ltBlue: rgb(191, 204, 248);
 
 $color-background-ltGray: rgb(236, 236, 236);
 $color-background-dkGray: rgb(56, 53, 53);
-$color-background-main: rgb(189, 174, 207);
+$color-background-main: rgb(21, 11, 41);
 
 // Text colors
 $text-color-main: rgb(255, 255, 251);
@@ -21,3 +21,9 @@ $default-font-size: 1.6rem;
 //    Shadows 
 $text-shadow-dark: .75rem .75rem .75rem rgb(10, 10, 10);
 $box-shadow-dark: 1rem 1rem 3rem rgb(10, 10, 10);
+
+
+//grid
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;

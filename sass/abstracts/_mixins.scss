@@ -5,3 +5,11 @@
       transform: translate(-50%, -50%);
       text-align: center;
 }
+
+@mixin clearfix {
+    &::after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+}
