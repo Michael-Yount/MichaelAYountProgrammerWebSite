@@ -28,6 +28,10 @@ body {
     letter-spacing: 1.1rem;
     text-align: left; }
 
+.videoOfAnimations {
+  position: absolute;
+  background-color: orangered; }
+
 *,
 *::after,
 *::before {
@@ -171,6 +175,9 @@ body {
   .header-links__list--link:hover, .header-links__list--link:active {
     color: #23ff91;
     transform: translateY(-0.5rem); }
+
+.youTubeLink {
+  position: relative; }
 
 .section-projects {
   padding: 20rem 0;
