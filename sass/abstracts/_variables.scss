@@ -1,8 +1,8 @@
 $color-white: rgb(153, 172, 175);
 $color-black: rgb(7, 6, 6);
 
-$color-primary-ltBlue: rgba(109, 209, 248, 0.87);
-$color-primary-dkBlue: rgb(31, 62, 95);
+$color-primary-ltBlue: rgba(109, 209, 248, 0.932);
+$color-primary-dkBlue: rgba(31, 62, 95, 0.911);
 $color-secondary-ltBlue: rgb(191, 204, 248);
 
 $color-background-ltGray: rgb(236, 236, 236);
@@ -13,6 +13,12 @@ $color-background-main: rgb(21, 11, 41);
 $text-color-main: rgb(255, 255, 251);
 $text-color-hover: rgb(35, 255, 145);
 $text-color-selected: rgb(44, 12, 70);
+
+
+//Transparent colors
+$transparent-blue-glass: rgba(0, 183, 255, 0.15);
+$transparent-purple-glass: rgba(111, 0, 255, 0.15);
+$transparent-gold-glass: rgba(255, 251, 0, 0.15);
 
 
 //FOnt

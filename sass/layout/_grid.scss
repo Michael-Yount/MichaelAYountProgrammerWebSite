@@ -8,7 +8,7 @@
   }
 
   @include clearfix;
-  // change attribute this asllows us to select all class that start with col
+  // change attribute this allows us to select all class that start with col
   [class^="col-"] {
     float: left;
 

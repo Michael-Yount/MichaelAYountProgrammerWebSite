@@ -2,7 +2,7 @@ body {
   font-family: "Source Code Pro", monospace;
   font-weight: 400;
   font-size: 1.6rem;
-  background: #150b29;
+  background: rgba(109, 209, 248, 0.932);
   color: #ececec;
   padding: 1rem; }
 
@@ -99,7 +99,7 @@ body {
   position: relative;
   background-size: cover;
   background-position: top;
-  background-image: linear-gradient(to right bottom, rgba(109, 209, 248, 0.87), #1f3e5f), url(/reference/img/codeScreenShot.png);
+  background-image: linear-gradient(to right bottom, rgba(109, 209, 248, 0.932), rgba(31, 62, 95, 0.911)), url(/reference/img/codeScreenShot.png);
   clip-path: polygon(0 0, 100% 0, 60% 95vh, 0 100%);
   border-radius: 1rem; }
   .header__head--shot {
@@ -125,36 +125,37 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
-.header-links__nav {
-  top: 2rem;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  z-index: 1000; }
-
-.header-links__list {
-  list-style: none;
-  width: 100%; }
-
-.header-links__list--item {
-  display: inline-block;
-  padding: 2rem; }
-
-.header-links__list--link:link, .header-links__list--link:visited {
-  text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
-  display: inline-block;
-  font-weight: 500;
-  font-size: 2.5rem;
-  padding: 1rem;
-  color: #ececec;
-  text-decoration: none;
-  text-transform: uppercase; }
-
-.header-links__list--link:hover, .header-links__list--link:active {
-  color: #23ff91;
-  transform: translateY(-0.5rem); }
+.header-links {
+  position: fixed; }
+  .header-links__nav {
+    top: 2rem;
+    text-align: center;
+    position: fixed;
+    width: 100%; }
+  .header-links__list {
+    list-style: none;
+    width: 100%; }
+  .header-links__list--item {
+    display: inline-block;
+    padding: 2rem; }
+  .header-links__list--link:link, .header-links__list--link:visited {
+    text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: #ececec;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .header-links__list--link:hover, .header-links__list--link:active {
+    color: #23ff91;
+    transform: translateY(-0.5rem); }
 
 .section-projects {
-  padding: 20rem;
-  margin-top: -5rem;
-  border-radius: 2rem; }
+  padding: 20rem 0;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  background-size: cover;
+  background-image: linear-gradient(to top right, rgba(0, 183, 255, 0.15), rgba(111, 0, 255, 0.15));
+  color: #070606; }
