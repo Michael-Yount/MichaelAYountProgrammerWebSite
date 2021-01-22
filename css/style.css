@@ -50,6 +50,21 @@ body {
     opacity: 100%;
     transform: translateY(1rem); } }
 
+@keyframes animateEyes {
+  0% {
+    background-image: url(/reference/img/animationPageCharacterEyes.png); }
+  10% { }
+  20% { }
+  30% { }
+  40% { }
+  50% { }
+  60% { }
+  70% { }
+  80% { }
+  90% { }
+  100% {
+    background-image: url(/reference/img/animationPageCharacterEyes.png); } }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -100,7 +115,6 @@ body {
   background-size: cover;
   background-position: top;
   background-image: linear-gradient(to right bottom, rgba(109, 209, 248, 0.932), rgba(31, 62, 95, 0.911)), url(/reference/img/codeScreenShot.png);
-  clip-path: polygon(0 0, 100% 0, 60% 95vh, 0 100%);
   border-radius: 1rem; }
   .header__head--shot {
     display: block;
@@ -112,6 +126,13 @@ body {
     border-radius: 10rem;
     position: absolute;
     box-shadow: 1rem 1rem 3rem #0a0a0a; }
+  .header__headSHot--characterAnimation {
+    background-image: url(/reference/img/animationPageCharacterEyes.png);
+    display: block;
+    animation-name: animateEyes;
+    animation-duration: 100s;
+    z-index: 100;
+    background-color: orangered; }
   .header__logo-box {
     position: absolute;
     top: 6rem;

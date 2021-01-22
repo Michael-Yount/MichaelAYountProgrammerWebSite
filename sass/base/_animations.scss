@@ -1,16 +1,54 @@
 @keyframes dropDown {
-    0% {
-        opacity: 0;
-        transform: translateY(-200rem);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-200rem);
+  }
 
-    90% {
-        // font-size: larger;
-    }
+  90% {
+    // font-size: larger;
+  }
 
-    100% {
-        opacity: 100%;
-        transform: translateY(1rem);
+  100% {
+    opacity: 100%;
+    transform: translateY(1rem);
+  }
+}
 
-    }
+@keyframes animateEyes {
+  0% {
+    background-image: url(/reference/img/animationPageCharacterEyes.png);
+  }
+
+  10% {
+  }
+
+  20% {
+  }
+
+  30% {
+  }
+
+  40% {
+  }
+
+  50% {
+  }
+
+  60% {
+  }
+
+  70% {
+  }
+
+  80% {
+  }
+
+  90% {
+  }
+
+  100% {
+
+    background-image: url(/reference/img/animationPageCharacterEyes.png);
+
+  }
 }

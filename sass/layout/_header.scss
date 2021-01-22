@@ -10,7 +10,7 @@
     ),
     url(/reference/img/codeScreenShot.png);
 
-  clip-path: polygon(0 0, 100% 0, 60% 95vh, 0 100%);
+  // clip-path: polygon(0 0, 100% 0, 0% 100, 0 100%);
   border-radius: 1rem;
 
   &__head--shot {
@@ -26,7 +26,22 @@
     position: absolute;
     //   padding: 2rem;
     box-shadow: $box-shadow-dark;
+
+    
+   
   }
+
+   &__headSHot--characterAnimation {
+     background-image: url(/reference/img/animationPageCharacterEyes.png);
+       display: block;
+      animation-name: animateEyes;
+      animation-duration: 100s;
+      z-index: 100;
+      background-color: orangered;
+    }
+
+
+  
 
   &__logo-box {
     position: absolute;
