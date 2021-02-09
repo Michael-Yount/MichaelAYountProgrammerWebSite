@@ -125,11 +125,17 @@ body {
     position: relative;
     padding: 5rem;
     border-radius: 3rem; }
+    @media (max-width: 37.5em) {
+      .header__head--shot {
+        padding: 0%; } }
   .header__headShot {
     height: 35rem;
     border-radius: 10rem;
     position: absolute;
     box-shadow: 1rem 1rem 3rem #0a0a0a; }
+    @media (max-width: 37.5em) {
+      .header__headShot {
+        height: 20rem; } }
   .header__headSHot--characterAnimation {
     background-image: url(/reference/img/animationPageCharacterEyes.png);
     display: block;

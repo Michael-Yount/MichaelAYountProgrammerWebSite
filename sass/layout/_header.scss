@@ -18,6 +18,10 @@
     position: relative;
     padding: 5rem;
     border-radius: 3rem;
+
+    @include respond(phone) {
+      padding: 0%;
+    }
   }
 
   &__headShot {
@@ -27,7 +31,9 @@
     //   padding: 2rem;
     box-shadow: $box-shadow-dark;
 
-    
+    @include respond(phone) {
+      height: 20rem;
+    }
    
   }
 
