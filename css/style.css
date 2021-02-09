@@ -149,6 +149,10 @@ body {
     left: 6rem; }
   .header__logo {
     height: 8rem; }
+    @media (max-width: 37.5em) {
+      .header__logo {
+        height: 2rem;
+        opacity: 50%; } }
   .header__text--box {
     position: absolute;
     top: 50%;
