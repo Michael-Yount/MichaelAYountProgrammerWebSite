@@ -1,10 +1,10 @@
- .header-links {
-//   position: fixed;
-//   width: 100%;
-//   height: 100%;
+.header-links {
+  //   position: fixed;
+  //   width: 100%;
+  //   height: 100%;
 
   // nothing here ?
- &__nav {
+  &__nav {
     top: 2rem;
     text-align: center;
     position: fixed;
@@ -12,22 +12,17 @@
 
     @include respond(phone) {
       width: 50%;
-      
     }
-
-
-   
   }
 
   &__list {
     list-style: none;
     width: 100%;
 
-        display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
   }
 
   &__list--item {
@@ -44,7 +39,6 @@
       text-shadow: $text-shadow-dark;
 
       // display: flex;
-
 
       font-weight: 500;
       font-size: 2.5rem;
@@ -64,4 +58,4 @@
       transform: translateY(-0.5rem);
     }
   }
- }
+}

@@ -29,7 +29,7 @@ body {
 
 
     @include respond(phone) {
-      font-size: 3rem;
+      font-size: 5rem;
       letter-spacing: 1.2rem;
 
     }
@@ -44,7 +44,7 @@ body {
 
     
     @include respond(phone) {
-      font-size: 1rem;
+      font-size: 2rem;
       letter-spacing: 1rem;
       
     }

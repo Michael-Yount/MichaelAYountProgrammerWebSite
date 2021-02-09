@@ -23,7 +23,7 @@ body {
     animation-timing-function: cubic-bezier(0.78, 0.29, 0.57, 1.31); }
     @media (max-width: 37.5em) {
       .header-primary--main {
-        font-size: 3rem;
+        font-size: 5rem;
         letter-spacing: 1.2rem; } }
   .header-primary--sub {
     display: block;
@@ -33,7 +33,7 @@ body {
     text-align: left; }
     @media (max-width: 37.5em) {
       .header-primary--sub {
-        font-size: 1rem;
+        font-size: 2rem;
         letter-spacing: 1rem; } }
 
 .videoOfAnimations {
