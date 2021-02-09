@@ -156,37 +156,44 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
-.header-links {
-  position: fixed; }
-  .header-links__nav {
-    top: 2rem;
-    text-align: center;
-    position: fixed;
-    width: 100%; }
-  .header-links__list {
-    list-style: none;
-    width: 100%; }
-  .header-links__list--item {
-    display: inline-block;
-    padding: 2rem; }
-    @media (max-width: 37.5em) {
-      .header-links__list--item {
-        padding: 0%; } }
-  .header-links__list--link:link, .header-links__list--link:visited {
-    text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
-    display: inline-block;
-    font-weight: 500;
-    font-size: 2.5rem;
-    padding: 1rem;
-    color: #ececec;
-    text-decoration: none;
-    text-transform: uppercase; }
-    @media (max-width: 37.5em) {
-      .header-links__list--link:link, .header-links__list--link:visited {
-        font-size: 1.2rem; } }
-  .header-links__list--link:hover, .header-links__list--link:active {
-    color: #23ff91;
-    transform: translateY(-0.5rem); }
+.header-links__nav {
+  top: 2rem;
+  text-align: center;
+  position: fixed;
+  width: 100%; }
+  @media (max-width: 37.5em) {
+    .header-links__nav {
+      width: 50%; } }
+
+.header-links__list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.header-links__list--item {
+  padding: 2rem; }
+  @media (max-width: 37.5em) {
+    .header-links__list--item {
+      padding: 0%; } }
+
+.header-links__list--link:link, .header-links__list--link:visited {
+  text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: #ececec;
+  text-decoration: none;
+  text-transform: uppercase; }
+  @media (max-width: 37.5em) {
+    .header-links__list--link:link, .header-links__list--link:visited {
+      font-size: 1.2rem; } }
+
+.header-links__list--link:hover, .header-links__list--link:active {
+  color: #23ff91;
+  transform: translateY(-0.5rem); }
 
 .youTubeLink {
   position: relative; }

@@ -1,38 +1,50 @@
-.header-links {
-  position: fixed;
-    
+ .header-links {
+//   position: fixed;
+//   width: 100%;
+//   height: 100%;
+
   // nothing here ?
-  &__nav {
-      top: 2rem;
-      text-align: center;
+ &__nav {
+    top: 2rem;
+    text-align: center;
     position: fixed;
     width: 100%;
 
+    @include respond(phone) {
+      width: 50%;
+    }
 
 
+   
   }
 
-  &__list {      
+  &__list {
     list-style: none;
     width: 100%;
+
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
   }
 
   &__list--item {
-      display: inline-block;
-      padding: 2rem;
-      
+    padding: 2rem;
 
-      @include respond(phone) {
-        padding: 0%;
-      }
+    @include respond(phone) {
+      padding: 0%;
+    }
   }
 
   &__list--link {
     &:link,
     &:visited {
-        
       text-shadow: $text-shadow-dark;
-      display: inline-block;
+
+      // display: flex;
+
+
       font-weight: 500;
       font-size: 2.5rem;
       padding: 1rem;
@@ -40,17 +52,15 @@
       text-decoration: none;
       text-transform: uppercase;
 
-      
       @include respond(phone) {
-      font-size: 1.2rem;
-              
+        font-size: 1.2rem;
       }
     }
 
     &:hover,
     &:active {
-        color: $text-color-hover;
-        transform: translateY(-.5rem);
+      color: $text-color-hover;
+      transform: translateY(-0.5rem);
     }
   }
-}
+ }
