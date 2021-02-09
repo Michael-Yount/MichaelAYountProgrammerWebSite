@@ -169,6 +169,9 @@ body {
   .header-links__list--item {
     display: inline-block;
     padding: 2rem; }
+    @media (max-width: 37.5em) {
+      .header-links__list--item {
+        padding: 0%; } }
   .header-links__list--link:link, .header-links__list--link:visited {
     text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
     display: inline-block;
@@ -178,6 +181,9 @@ body {
     color: #ececec;
     text-decoration: none;
     text-transform: uppercase; }
+    @media (max-width: 37.5em) {
+      .header-links__list--link:link, .header-links__list--link:visited {
+        font-size: 1.2rem; } }
   .header-links__list--link:hover, .header-links__list--link:active {
     color: #23ff91;
     transform: translateY(-0.5rem); }
