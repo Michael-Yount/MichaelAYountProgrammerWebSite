@@ -202,7 +202,7 @@ body {
   padding: 2rem; }
   @media (max-width: 37.5em) {
     .header-links__list--item {
-      padding: 0%; } }
+      padding: 1rem; } }
 
 .header-links__list--link:link, .header-links__list--link:visited {
   text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
