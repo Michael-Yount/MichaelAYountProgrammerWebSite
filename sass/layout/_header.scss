@@ -1,5 +1,5 @@
 .header {
-  height: 65vh;
+  height: 55vh;
   position: relative;
   background-size: cover;
   background-position: top;
@@ -25,14 +25,17 @@
   }
 
   &__headShot {
-    height: 35rem;
+    top: 3rem;
+    left: 3rem;
+    height: 30rem;
     border-radius: 10rem;
     position: absolute;
     //   padding: 2rem;
     box-shadow: $box-shadow-dark;
 
     @include respond(phone) {
-      height: 20rem;
+      height: 10rem;
+      top: 12rem;
     }
   }
 

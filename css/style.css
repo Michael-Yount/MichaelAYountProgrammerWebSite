@@ -14,17 +14,19 @@ body {
   margin-bottom: 2rem; }
   .header-primary--main {
     display: block;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 500;
-    letter-spacing: 2rem;
-    text-align: left;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    padding: 2rem;
     animation-name: dropDown;
     animation-duration: 2s;
     animation-timing-function: cubic-bezier(0.78, 0.29, 0.57, 1.31); }
     @media (max-width: 37.5em) {
       .header-primary--main {
-        font-size: 5rem;
-        letter-spacing: 1.2rem; } }
+        font-size: 4rem;
+        letter-spacing: 1.2rem;
+        text-align: right; } }
   .header-primary--sub {
     display: block;
     font-size: 2.5rem;
@@ -33,12 +35,21 @@ body {
     text-align: left; }
     @media (max-width: 37.5em) {
       .header-primary--sub {
-        font-size: 2rem;
+        margin-top: 2rem;
+        font-size: 2.5rem;
         letter-spacing: 1rem; } }
 
 .videoOfAnimations {
   position: absolute;
   background-color: orangered; }
+
+.heading-secondary {
+  text-transform: uppercase; }
+
+.heading-tertiary {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3rem; }
 
 *,
 *::after,
@@ -65,6 +76,9 @@ body {
   @media (max-width: 56.25em) {
     body {
       padding: 0; } }
+  @media (max-width: 37.5em) {
+    body {
+      padding: 1rem; } }
 
 @keyframes dropDown {
   0% {
@@ -135,7 +149,7 @@ body {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .header {
-  height: 65vh;
+  height: 55vh;
   position: relative;
   background-size: cover;
   background-position: top;
@@ -150,13 +164,16 @@ body {
       .header__head--shot {
         padding: 0%; } }
   .header__headShot {
-    height: 35rem;
+    top: 3rem;
+    left: 3rem;
+    height: 30rem;
     border-radius: 10rem;
     position: absolute;
     box-shadow: 1rem 1rem 3rem #0a0a0a; }
     @media (max-width: 37.5em) {
       .header__headShot {
-        height: 20rem; } }
+        height: 10rem;
+        top: 12rem; } }
   .header__headSHot--characterAnimation {
     background-image: url(/reference/img/animationPageCharacterEyes.png);
     display: block;
@@ -181,50 +198,49 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
-.header-links__nav {
-  top: 2rem;
-  text-align: center;
+.header-links {
   position: fixed;
   width: 100%; }
-  @media (max-width: 37.5em) {
-    .header-links__nav {
-      width: 50%; } }
-
-.header-links__list {
-  list-style: none;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-
-.header-links__list--item {
-  padding: 2rem; }
-  @media (max-width: 37.5em) {
-    .header-links__list--item {
-      padding: 1rem; } }
-
-.header-links__list--link:link, .header-links__list--link:visited {
-  text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
-  font-weight: 500;
-  font-size: 2.5rem;
-  padding: 1rem;
-  color: #ececec;
-  text-decoration: none;
-  text-transform: uppercase; }
-  @media (max-width: 37.5em) {
-    .header-links__list--link:link, .header-links__list--link:visited {
-      font-size: 1.2rem; } }
-
-.header-links__list--link:hover, .header-links__list--link:active {
-  color: #23ff91;
-  transform: translateY(-0.5rem); }
+  .header-links__nav {
+    top: 2rem;
+    text-align: center;
+    position: fixed;
+    width: 100%; }
+    @media (max-width: 37.5em) {
+      .header-links__nav {
+        width: 80%; } }
+  .header-links__list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  .header-links__list--item {
+    padding: 2rem; }
+    @media (max-width: 37.5em) {
+      .header-links__list--item {
+        padding: 1rem; } }
+  .header-links__list--link:link, .header-links__list--link:visited {
+    text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: #ececec;
+    text-decoration: none;
+    text-transform: uppercase; }
+    @media (max-width: 37.5em) {
+      .header-links__list--link:link, .header-links__list--link:visited {
+        font-size: 1.2rem; } }
+  .header-links__list--link:hover, .header-links__list--link:active {
+    color: #23ff91;
+    transform: translateY(-0.5rem); }
 
 .youTubeLink {
   position: relative; }
 
 .section-projects {
-  padding: 20rem 0;
+  padding: 5rem 0;
   margin-top: 1rem;
   border-radius: 2rem;
   text-align: center;

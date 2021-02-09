@@ -1,6 +1,6 @@
 .header-links {
-  //   position: fixed;
-  //   width: 100%;
+    position: fixed;
+    width: 100%;
   //   height: 100%;
 
   // nothing here ?
@@ -11,7 +11,7 @@
     width: 100%;
 
     @include respond(phone) {
-      width: 50%;
+      width: 80%;
     }
   }
 

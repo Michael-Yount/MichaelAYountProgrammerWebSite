@@ -17,11 +17,11 @@ body {
 
   &--main {
     display: block;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 500;
-    letter-spacing: 2rem;
-    text-align: left;
-    // padding: 2rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    padding: 2rem;
 
     animation-name: dropDown;
     animation-duration: 2s;
@@ -29,8 +29,9 @@ body {
 
 
     @include respond(phone) {
-      font-size: 5rem;
+      font-size: 4rem;
       letter-spacing: 1.2rem;
+      text-align: right;
 
     }
   }
@@ -44,7 +45,8 @@ body {
 
     
     @include respond(phone) {
-      font-size: 2rem;
+      margin-top: 2rem;
+      font-size: 2.5rem;
       letter-spacing: 1rem;
       
     }
@@ -54,4 +56,15 @@ body {
 .videoOfAnimations {
   position: absolute;
   background-color: orangered;
+}
+
+.heading-secondary {
+  text-transform: uppercase;
+
+}
+
+.heading-tertiary {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3rem;
 }
