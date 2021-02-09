@@ -21,12 +21,20 @@ body {
     animation-name: dropDown;
     animation-duration: 2s;
     animation-timing-function: cubic-bezier(0.78, 0.29, 0.57, 1.31); }
+    @media (max-width: 37.5em) {
+      .header-primary--main {
+        font-size: 3rem;
+        letter-spacing: 1.2rem; } }
   .header-primary--sub {
     display: block;
     font-size: 2.5rem;
     font-weight: 400;
     letter-spacing: 1.1rem;
     text-align: left; }
+    @media (max-width: 37.5em) {
+      .header-primary--sub {
+        font-size: 1rem;
+        letter-spacing: 1rem; } }
 
 .videoOfAnimations {
   position: absolute;
@@ -41,9 +49,22 @@ body {
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: .5rem; }
+  @media (max-width: 56.25em) {
+    body {
+      padding: 0; } }
 
 @keyframes dropDown {
   0% {
@@ -151,7 +172,7 @@ body {
     height: 8rem; }
     @media (max-width: 37.5em) {
       .header__logo {
-        height: 2rem;
+        height: 4rem;
         opacity: 50%; } }
   .header__text--box {
     position: absolute;
