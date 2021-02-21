@@ -1,0 +1,73 @@
+.modal {
+  @include respond(phone) {
+    width: 300px;
+  }
+
+  //   @include centeredContainer;
+  @include greenGlassFade;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  position: fixed;
+  border-bottom: 3px solid white;
+  border-radius: 5px;
+  z-index: 4500;
+  width: 700px;
+  max-width: 80%;
+  text-shadow: $text-shadow-dark;
+  color: $text-color-main;
+
+  box-shadow: $box-shadow-dark;
+
+  &.active {
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 4500;
+    backface-visibility: hidden;
+  }
+
+  &__header {
+    // text-align: center;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $color-white;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  &__close-button {
+    cursor: pointer;
+    color: $color-white;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 3rem;
+  }
+
+  &__body {
+    padding: 10px 15px;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+
+    display: flex;
+
+    @include respond(phone) {
+      line-height: 2rem;
+      padding: 0%;
+    }
+  }
+
+  &.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+}
+
