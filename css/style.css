@@ -236,24 +236,58 @@ body {
   .header-links__list--link:hover, .header-links__list--link:active {
     color: #23ff91;
     transform: translateY(-0.5rem); }
-  .header-links__list--projectsLink:link, .header-links__list--projectsLink:visited {
-    text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
-    font-weight: 500;
-    font-size: 2.5rem;
-    padding: 1rem;
-    color: #ececec;
-    text-decoration: none;
-    text-transform: uppercase; }
-    @media (max-width: 37.5em) {
-      .header-links__list--projectsLink:link, .header-links__list--projectsLink:visited {
-        font-size: 1.5rem;
-        padding: 0%; } }
-  .header-links__list--projectsLink:hover, .header-links__list--projectsLink:active {
-    color: #23ff91;
-    transform: translateY(-0.5rem); }
 
 .youTubeLink {
   position: relative; }
+
+.modal {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  position: fixed;
+  border-bottom: 3px solid white;
+  border-radius: 5px;
+  z-index: 4500;
+  width: 700px;
+  max-width: 80%;
+  text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
+  color: #fffffb;
+  box-shadow: 1rem 1rem 3rem #0a0a0a; }
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 4500;
+    backface-visibility: hidden; }
+  .modal__header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #99acaf; }
+  .modal__title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600; }
+  .modal__close-button {
+    cursor: pointer;
+    color: #99acaf;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 3rem; }
+  .modal__body {
+    padding: 10px 15px;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+    display: flex; }
+    @media (max-width: 37.5em) {
+      .modal__body {
+        line-height: 2rem;
+        padding: 0%; } }
+  .modal.hidden {
+    visibility: hidden;
+    opacity: 0; }
 
 .section-projects {
   padding: 5rem 0;

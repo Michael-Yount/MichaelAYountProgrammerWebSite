@@ -61,30 +61,30 @@
     }
   }
 
-   &__list--projectsLink {
-    &:link,
-    &:visited {
-      text-shadow: $text-shadow-dark;
+  //  &__list--projectsLink {
+  //   &:link,
+  //   &:visited {
+  //     text-shadow: $text-shadow-dark;
 
-      // display: flex;
+  //     // display: flex;
 
-      font-weight: 500;
-      font-size: 2.5rem;
-      padding: 1rem;
-      color: $color-background-ltGray;
-      text-decoration: none;
-      text-transform: uppercase;
+  //     font-weight: 500;
+  //     font-size: 2.5rem;
+  //     padding: 1rem;
+  //     color: $color-background-ltGray;
+  //     text-decoration: none;
+  //     text-transform: uppercase;
 
-      @include respond(phone) {
-        font-size: 1.5rem;
-        padding: 0%;
-      }
-    }
+  //     @include respond(phone) {
+  //       font-size: 1.5rem;
+  //       padding: 0%;
+  //     }
+  //   }
 
-    &:hover,
-    &:active {
-      color: $text-color-hover;
-      transform: translateY(-0.5rem);
-    }
-  }
+  //   &:hover,
+  //   &:active {
+  //     color: $text-color-hover;
+  //     transform: translateY(-0.5rem);
+  //   }
+  // }
 }

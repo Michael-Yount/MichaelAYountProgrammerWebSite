@@ -1,10 +1,6 @@
 .modal {
-  @include respond(phone) {
-    width: 300px;
-  }
-
   //   @include centeredContainer;
-  @include greenGlassFade;
+  // @include greenGlassFade;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
@@ -65,9 +61,7 @@
   }
 
   &.hidden {
-  visibility: hidden;
-  opacity: 0;
+    visibility: hidden;
+    opacity: 0;
+  }
 }
-
-}
-
