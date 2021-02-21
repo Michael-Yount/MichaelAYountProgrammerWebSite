@@ -26,7 +26,7 @@ body {
       .header-primary--main {
         font-size: 4rem;
         letter-spacing: 1.2rem;
-        text-align: right; } }
+        text-align: center; } }
   .header-primary--sub {
     display: block;
     font-size: 2.5rem;
@@ -149,7 +149,7 @@ body {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .header {
-  height: 55vh;
+  height: 95vh;
   position: relative;
   background-size: cover;
   background-position: top;
@@ -208,7 +208,7 @@ body {
     width: 100%; }
     @media (max-width: 37.5em) {
       .header-links__nav {
-        width: 80%; } }
+        width: 100%; } }
   .header-links__list {
     list-style: none;
     width: 100%;
@@ -220,7 +220,7 @@ body {
     padding: 2rem; }
     @media (max-width: 37.5em) {
       .header-links__list--item {
-        padding: 1rem; } }
+        padding: .5rem; } }
   .header-links__list--link:link, .header-links__list--link:visited {
     text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
     font-weight: 500;
@@ -231,8 +231,24 @@ body {
     text-transform: uppercase; }
     @media (max-width: 37.5em) {
       .header-links__list--link:link, .header-links__list--link:visited {
-        font-size: 1.2rem; } }
+        font-size: 1.5rem;
+        padding: 0%; } }
   .header-links__list--link:hover, .header-links__list--link:active {
+    color: #23ff91;
+    transform: translateY(-0.5rem); }
+  .header-links__list--projectsLink:link, .header-links__list--projectsLink:visited {
+    text-shadow: 0.75rem 0.75rem 0.75rem #0a0a0a;
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: #ececec;
+    text-decoration: none;
+    text-transform: uppercase; }
+    @media (max-width: 37.5em) {
+      .header-links__list--projectsLink:link, .header-links__list--projectsLink:visited {
+        font-size: 1.5rem;
+        padding: 0%; } }
+  .header-links__list--projectsLink:hover, .header-links__list--projectsLink:active {
     color: #23ff91;
     transform: translateY(-0.5rem); }
 
