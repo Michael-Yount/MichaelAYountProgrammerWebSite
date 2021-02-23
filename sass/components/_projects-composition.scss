@@ -11,46 +11,45 @@
     position: absolute;
     z-index: 10;
     transition: all 0.2s;
-    outline-offset: 2rem;
+    outline-offset: 1rem;
 
-    display: flex;
-  flex-direction: column;
+    
 
     &--p1 {
       left: 0;
-      
-      // top: -2rem;
+
+      top: -2rem;
     }
 
     &--p2 {
-      right: 0;
-      // top: 2rem;
+      right: 5rem;
+      top: 2rem;
     }
 
     &--p3 {
-      left: 20%;
-      // top: 10rem;
+      left: 2%;
+      top: 20rem;
     }
 
     &--p4 {
-      left: 20%;
-      // top: 10rem;
+      left: 30%;
+      top: 30rem;
     }
 
     &--p5 {
-      left: 20%;
-      // top: 10rem;
+      left: 10%;
+      top: 40rem;
     }
 
     &--p6 {
-      left: 20%;
-      // top: 10rem;
+      left: 60%;
+      top: 50rem;
     }
 
     &:hover {
-      outline: 1rem solid $transparent-purple-glass;
+      outline: .5rem solid $transparent-purple-glass;
       transform: scale(1.25) translateY(-0.5rem);
-      box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+      box-shadow: 0 1.5rem 4rem rgba($transparent-gold-glass, 0.4);
       z-index: 20;
     }
   }
