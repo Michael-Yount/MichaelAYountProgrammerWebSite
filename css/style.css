@@ -326,10 +326,11 @@ body {
     transform: scale(0.9); }
 
 .section-projects {
+  height: 80%;
   padding: 5rem 0;
   margin-top: 1rem;
   border-radius: 2rem;
   text-align: center;
   background-size: cover;
-  background-image: linear-gradient(to top right, rgba(0, 183, 255, 0.15), rgba(111, 0, 255, 0.15));
-  color: #070606; }
+  background-image: linear-gradient(to top right, rgba(31, 62, 95, 0.911), rgba(111, 0, 255, 0.15));
+  color: #ececec; }
