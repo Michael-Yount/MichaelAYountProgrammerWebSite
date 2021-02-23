@@ -289,6 +289,38 @@ body {
     visibility: hidden;
     opacity: 0; }
 
+.composition {
+  position: relative; }
+  .composition__photo {
+    width: 50%;
+    box-shadow: 0 1.5rem 4rem rgba(7, 6, 6, 0.4);
+    border-radius: 0.5rem;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.2s;
+    outline-offset: 2rem;
+    display: flex;
+    flex-direction: column; }
+    .composition__photo--p1 {
+      left: 0; }
+    .composition__photo--p2 {
+      right: 0; }
+    .composition__photo--p3 {
+      left: 20%; }
+    .composition__photo--p4 {
+      left: 20%; }
+    .composition__photo--p5 {
+      left: 20%; }
+    .composition__photo--p6 {
+      left: 20%; }
+    .composition__photo:hover {
+      outline: 1rem solid rgba(111, 0, 255, 0.15);
+      transform: scale(1.25) translateY(-0.5rem);
+      box-shadow: 0 1.5rem 4rem rgba(7, 6, 6, 0.4);
+      z-index: 20; }
+  composition:hover .composition__photo:not(:hover):hover composition:hover .composition__photo:not(:hover)__photo:not(:hover) {
+    transform: scale(0.9); }
+
 .section-projects {
   padding: 5rem 0;
   margin-top: 1rem;

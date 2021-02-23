@@ -1,60 +1,62 @@
 .composition {
+  position: relative;
 
-    position: relative;
+  
+
+  &__photo {
+    width: 50%;
+    // height: ;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    border-radius: 0.5rem;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.2s;
+    outline-offset: 2rem;
 
     display: flex;
+  flex-direction: column;
 
-    &__photo {
-        width: 50%;
-        // height: ;
-        box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
-        border-radius: .5rem;
-        position: absolute;
-        z-index: 10;
-        transition: all .2s;
-        outline-offset: 2rem;
-
-        &--p1 {
-            left: 0;
-            // top: -2rem;
-        }
-
-        &--p2 {
-            right: 0;
-            // top: 2rem;
-        }
-
-        &--p3 {
-            left: 20%;
-            // top: 10rem;
-        }
-
-        &--p4 {
-            left: 20%;
-            // top: 10rem;
-        }
-
-        &--p5 {
-            left: 20%;
-            // top: 10rem;
-        }
-
-        &--p6 {
-            left: 20%;
-            // top: 10rem;
-        }
-
-        &:hover {
-            outline: 1rem solid $color-tertiary-dark;
-            transform: scale(1.25) translateY(-.5rem);
-            box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
-            z-index: 20;
-        }
+    &--p1 {
+      left: 0;
+      
+      // top: -2rem;
     }
-    // composition:hover &__photo:not(:hover) {
 
+    &--p2 {
+      right: 0;
+      // top: 2rem;
+    }
+
+    &--p3 {
+      left: 20%;
+      // top: 10rem;
+    }
+
+    &--p4 {
+      left: 20%;
+      // top: 10rem;
+    }
+
+    &--p5 {
+      left: 20%;
+      // top: 10rem;
+    }
+
+    &--p6 {
+      left: 20%;
+      // top: 10rem;
+    }
+
+    &:hover {
+      outline: 1rem solid $transparent-purple-glass;
+      transform: scale(1.25) translateY(-0.5rem);
+      box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+      z-index: 20;
+    }
+  }
+  composition:hover &__photo:not(:hover) {
     &:hover &__photo:not(:hover) {
-        transform: scale(.9);
-
+      transform: scale(0.9);
     }
+  }
 }
