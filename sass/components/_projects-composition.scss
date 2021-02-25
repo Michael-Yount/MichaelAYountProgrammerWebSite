@@ -1,39 +1,35 @@
 .composition {
   position: relative;
 
-  
-
   &__photo {
     width: 50%;
     // height: ;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.6);
     border-radius: 0.5rem;
     position: absolute;
     z-index: 10;
     transition: all 0.2s;
-    outline-offset: 1rem;
-
-    
+    outline-offset: .2rem;
 
     &--p1 {
       left: 0;
 
-      top: -2rem;
+      top: -5rem;
     }
 
     &--p2 {
       right: 5rem;
-      top: 2rem;
+      top: -2rem;
     }
 
     &--p3 {
-      left: 2%;
-      top: 20rem;
+      left: 2rem;
+      top: 15rem;
     }
 
     &--p4 {
       left: 30%;
-      top: 30rem;
+      top: 25rem;
     }
 
     &--p5 {
@@ -42,13 +38,13 @@
     }
 
     &--p6 {
-      left: 60%;
+      left:15rem;
       top: 50rem;
     }
 
     &:hover {
-      outline: .5rem solid $transparent-purple-glass;
-      transform: scale(1.25) translateY(-0.5rem);
+      outline: 0.5rem solid $transparent-purple-glass;
+      transform: scale(2.25) translateY(-0.5rem);
       box-shadow: 0 1.5rem 4rem rgba($transparent-gold-glass, 0.4);
       z-index: 20;
     }

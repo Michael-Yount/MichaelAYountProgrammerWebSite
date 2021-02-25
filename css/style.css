@@ -44,11 +44,17 @@ body {
   background-color: orangered; }
 
 .heading-secondary {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding: 3rem; }
 
 .heading-tertiary {
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
+  padding: 3rem; }
+
+.paragraph {
+  text-align: right;
+  letter-spacing: .2rem;
   padding: 3rem; }
 
 *,
@@ -302,43 +308,42 @@ body {
   position: relative; }
   .composition__photo {
     width: 50%;
-    box-shadow: 0 1.5rem 4rem rgba(7, 6, 6, 0.4);
+    box-shadow: 0 1.5rem 4rem rgba(7, 6, 6, 0.6);
     border-radius: 0.5rem;
     position: absolute;
     z-index: 10;
     transition: all 0.2s;
-    outline-offset: 1rem; }
+    outline-offset: .2rem; }
     .composition__photo--p1 {
       left: 0;
-      top: -2rem; }
+      top: -5rem; }
     .composition__photo--p2 {
       right: 5rem;
-      top: 2rem; }
+      top: -2rem; }
     .composition__photo--p3 {
-      left: 2%;
-      top: 20rem; }
+      left: 2rem;
+      top: 15rem; }
     .composition__photo--p4 {
       left: 30%;
-      top: 30rem; }
+      top: 25rem; }
     .composition__photo--p5 {
       left: 10%;
       top: 40rem; }
     .composition__photo--p6 {
-      left: 60%;
+      left: 15rem;
       top: 50rem; }
     .composition__photo:hover {
       outline: 0.5rem solid rgba(111, 0, 255, 0.15);
-      transform: scale(1.25) translateY(-0.5rem);
+      transform: scale(2.25) translateY(-0.5rem);
       box-shadow: 0 1.5rem 4rem rgba(255, 251, 0, 0.4);
       z-index: 20; }
   composition:hover .composition__photo:not(:hover):hover composition:hover .composition__photo:not(:hover)__photo:not(:hover) {
     transform: scale(0.9); }
 
 .section-projects {
-  height: 80%;
-  padding: 5rem 0;
-  margin-top: 1rem;
-  border-radius: 2rem;
+  padding: 15rem 5rem;
+  margin-top: .2rem;
+  border-radius: 1rem;
   text-align: center;
   background-size: cover;
   background-image: linear-gradient(to top right, rgba(31, 62, 95, 0.911), rgba(111, 0, 255, 0.15));

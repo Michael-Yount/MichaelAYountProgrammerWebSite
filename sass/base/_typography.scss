@@ -60,11 +60,18 @@ body {
 
 .heading-secondary {
   text-transform: uppercase;
+  padding: 3rem;
 
 }
 
 .heading-tertiary {
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
+  padding: 3rem;
+}
+
+.paragraph {
+  text-align: right;
+  letter-spacing: .2rem;
   padding: 3rem;
 }
