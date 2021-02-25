@@ -74,4 +74,12 @@ body {
   text-align: right;
   letter-spacing: .2rem;
   padding: 3rem;
+
+  @include respond(phone) {
+      // margin-top: 2rem;
+      font-size: 2rem;
+      // letter-spacing: 1rem;
+      display: none;
+      
+    }
 }

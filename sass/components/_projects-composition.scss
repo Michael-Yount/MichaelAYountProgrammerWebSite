@@ -11,15 +11,26 @@
     transition: all 0.2s;
     outline-offset: .2rem;
 
+    @include respond(phone) {
+
+    width: 100%;
+    }
+
     &--p1 {
       left: 0;
-
       top: -5rem;
     }
 
     &--p2 {
       right: 5rem;
       top: -2rem;
+
+      @include respond(phone) {
+      margin-top: 2rem;
+      width: 70%;
+      top: 2rem;
+      left: 3rem;
+    }
     }
 
     &--p3 {
@@ -30,6 +41,13 @@
     &--p4 {
       left: 30%;
       top: 25rem;
+
+      @include respond(phone) {
+      margin-top: 2rem;
+    //   width: 70%;
+      top: 25rem;
+      left: 25%;
+    }
     }
 
     &--p5 {
@@ -40,13 +58,25 @@
     &--p6 {
       left:15rem;
       top: 50rem;
+
+      @include respond(phone) {
+    //   margin-top: 2rem;
+    //   width: 70%;
+      top: 50rem;
+      left: 1rem;
+    }
     }
 
     &:hover {
       outline: 0.5rem solid $transparent-purple-glass;
-      transform: scale(2.25) translateY(-0.5rem);
+      transform: scale(2) translateY(-0.5rem);
       box-shadow: 0 1.5rem 4rem rgba($transparent-gold-glass, 0.4);
       z-index: 20;
+
+      @include respond(phone) {
+      transform: scale(1.55) translateY(-0.5rem);
+
+      }
     }
   }
   composition:hover &__photo:not(:hover) {
