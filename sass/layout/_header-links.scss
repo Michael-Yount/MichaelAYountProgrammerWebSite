@@ -44,7 +44,7 @@
       font-weight: 500;
       font-size: 2.5rem;
       padding: 1rem;
-      color: $color-background-ltGray;
+      color: $links-color;
       text-decoration: none;
       text-transform: uppercase;
 
@@ -56,7 +56,7 @@
 
     &:hover,
     &:active {
-      color: $text-color-hover;
+      color: $text-color-selected;
       transform: translateY(-0.5rem);
     }
   }

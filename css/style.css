@@ -236,7 +236,7 @@ body {
     font-weight: 500;
     font-size: 2.5rem;
     padding: 1rem;
-    color: #ececec;
+    color: #73ff00;
     text-decoration: none;
     text-transform: uppercase; }
     @media (max-width: 37.5em) {
@@ -244,7 +244,7 @@ body {
         font-size: 1.5rem;
         padding: 0%; } }
   .header-links__list--link:hover, .header-links__list--link:active {
-    color: #23ff91;
+    color: #2c0c46;
     transform: translateY(-0.5rem); }
 
 .youTubeLink {
