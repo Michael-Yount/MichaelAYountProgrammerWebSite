@@ -20,6 +20,9 @@
 
   /* THIS creates the animation! */
   transition: transform 1s;
+  
+ 
+
 }
 
 .slide > img {
@@ -27,6 +30,12 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+
+   @include respond(phone) {
+height: 60%;
+  }
+
+  
 }
 
 .slider__btn {
