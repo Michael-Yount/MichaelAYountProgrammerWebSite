@@ -1,4 +1,4 @@
-.section-projects {
+.section {
   padding: 15rem 5rem;
   margin-top: .2rem;
   border-radius: 1rem;
@@ -10,4 +10,15 @@
     $transparent-purple-glass
   );
   color: $color-background-ltGray;
+
+  
+
+  &-projects{
+
+  }
+
+  &--hidden {
+    opacity: 0;
+    transform: translateY(15rem);
+  }
 }
