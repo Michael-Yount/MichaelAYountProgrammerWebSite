@@ -1,6 +1,6 @@
 .section {
   padding: 15rem 5rem;
-  margin-top: .2rem;
+  margin-top: 0.2rem;
   border-radius: 1rem;
   text-align: center;
   background-size: cover;
@@ -11,11 +11,9 @@
   );
   color: $color-background-ltGray;
 
-  
+  //&-projects{
 
-  &-projects{
-
-  }
+  //}
 
   &--hidden {
     opacity: 0;
