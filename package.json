@@ -2,7 +2,7 @@
   "name": "michaelayountprogrammerwebsite",
   "version": "1.0.0",
   "description": "This is my professional website.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "test": "jest"
