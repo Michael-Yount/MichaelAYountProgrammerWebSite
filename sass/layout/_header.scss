@@ -4,11 +4,11 @@
   background-size: cover;
   background-position: top;
   background-image: linear-gradient(
-      to right bottom,
-      $color-primary-ltBlue,
-      $color-primary-dkBlue
-    ),
-    url(/reference/img/codeScreenShot.png);
+    to right bottom,
+    $color-primary-ltBlue,
+    $color-primary-dkBlue
+  );
+  //url(./reference/img/codeScreenShot.png);
 
   // clip-path: polygon(0 0, 100% 0, 0% 100, 0 100%);
   border-radius: 1rem;
