@@ -24,15 +24,13 @@ body {
     padding: 2rem;
 
     animation-name: dropDown;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
     animation-timing-function: cubic-bezier(0.78, 0.29, 0.57, 1.31);
-
 
     @include respond(phone) {
       font-size: 4rem;
       letter-spacing: 1.2rem;
       text-align: center;
-
     }
   }
 
@@ -43,12 +41,10 @@ body {
     letter-spacing: 1.1rem;
     text-align: left;
 
-    
     @include respond(phone) {
       margin-top: 2rem;
       font-size: 2.5rem;
       letter-spacing: 1rem;
-      
     }
   }
 }
@@ -61,7 +57,6 @@ body {
 .heading-secondary {
   text-transform: uppercase;
   padding: 3rem;
-
 }
 
 .heading-tertiary {
@@ -72,14 +67,13 @@ body {
 
 .paragraph {
   text-align: right;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   padding: 3rem;
 
   @include respond(phone) {
-      // margin-top: 2rem;
-      font-size: 2rem;
-      // letter-spacing: 1rem;
-      display: none;
-      
-    }
+    // margin-top: 2rem;
+    font-size: 2rem;
+    // letter-spacing: 1rem;
+    display: none;
+  }
 }
